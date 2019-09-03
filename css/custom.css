@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/31/49/325842876357764.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Candara;
+	font-size: 17px;
+  	padding: 3px;
+  	margin: 0;
+  	border: solid;
+  	border-color: white;
+  	border-width: 5px;
+}
+
+h1 {
+  background-color: #ffe6e6;
+  padding: 20px;
+  text-align: center;
+  color: #594848;
+  margin: 0;
+  font-family: Curlz MT;
+  font-size: 80px;
+  font-style: all;
+}
+
+h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.ingres {
+	text-align: center;
+}
+
+
+nav {
+	background: #ff9999;
+	width: 100%;
+	overflow: auto;
+}
+ul {
+	margin: 0;
+	padding: 5px;
+	list-style:none;
+}
+li {
+	float: left;
+}
+nav a {
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: #ff9999;
+	color: #594848;
+	font-size: 30px
+	padding: 20px 10px;
+	font-family: arial; 
+}
+nav a:hover {
+	color: white;
+}
+
+.large-image {
+	width: 200px;
+	margin-left: 150px;
+}
+
+.article-image {
+	size: 18px;
+	text-align: center;
+}
+
+.description-1 {
+	text-align: justify;
+	margin-right: 150px;
+}
+
+article {
+	text-align: justify;
+	-webkit-column-count: 2;
+  	-moz-column-count: 2;
+  	column-count: 2;
+
+  	-webkit-column-width: 100px;
+  	-moz-column-width: 100px;
+  	column-width: 100px;
+}
+
+.border {
+	border: double;
+	border-color: lightgray;
+	box-shadow: 5px;
+}
+
+#related {
+	border: double;
+	border-color: lightgray;
+	box-shadow: 5px;
+}
+
+#reviews {
+	border: double;
+	border-color: lightgray;
+	box-shadow: 5px;
+}
+.review-header {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+}
