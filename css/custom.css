@@ -100,12 +100,14 @@ article {
 	border: double;
 	border-color: lightgray;
 	box-shadow: 5px;
+	padding-left: 10px;
 }
 
 #reviews {
 	border: double;
 	border-color: lightgray;
 	box-shadow: 5px;
+	padding-left: 10px;
 }
 .review-header {
 	text-align: left;
